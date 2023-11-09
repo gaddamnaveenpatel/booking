@@ -33,7 +33,7 @@ public class MovieShowController {
         List<Movie_Show> movieShows = movieShowService.getAllMovieShows();
         return ResponseEntity.ok(movieShows);
     }
-
+//jqwhgdqd
     @PostMapping("/save")
     public ResponseEntity<Movie_Show> createMovieShow(
             @RequestParam("image") MultipartFile image,
